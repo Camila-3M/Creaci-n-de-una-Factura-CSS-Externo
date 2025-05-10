@@ -1,0 +1,46 @@
+body{
+    background-color:bisque;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+thead{
+    background-color: darkslateblue;
+    color:cornsilk;
+}
+
+thead th{
+    border: 2px solid black;
+}
+
+tbody td{
+    background-color: darkcyan;
+    color:palegoldenrod;
+    border: 2px solid black;
+}
+
+tfoot{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+
+.listado-productos thead{
+    background-color:tomato;
+}
+
+.listado-productos tbody td{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:coral;
+}
+
+.listado-productos tfoot{
+    border: 2px solid brown;
+    background-color:indianred;
+}
